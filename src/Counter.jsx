@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function Counter() {
 
   const [counter,setCounter] = useState(0)
@@ -24,8 +25,12 @@ function Counter() {
 
   return (
 
+    
+
 
     <div style={{ textAlign:"center"}}>
+
+    
       <h1>Counter</h1>
       <h1>{counter}</h1>
       <div>
@@ -72,6 +77,8 @@ function Counter() {
         </button>
       </div>
     </div>
+
+    
   );
 }
 
